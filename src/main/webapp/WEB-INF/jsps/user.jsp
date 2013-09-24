@@ -4,8 +4,8 @@
   <title>RPS Yatra</title>
 </head>
 <body>
-<form method="post" action="login" modelAttribute="userForm">
-	Email: <input type="text" name="user.email" style="width:363px;" id="email" size="58"/>
+<form method="post" action="login" modelAttribute="studentForm">
+	Email: <input type="text" name="user.emailId" style="width:363px;" id="emailId" size="58"/>
 	Password: <input type="password" name="user.password" style="width:363px;" id="password" size="58"/>
   	<input type="submit" value="Login">   
  </form>
